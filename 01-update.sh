@@ -1,4 +1,5 @@
 #!/bim/bash
+clear
 
 echo -e  "Atulizando as lista do Apt"
 
@@ -23,4 +24,4 @@ echo -e "Removendo softawe desnecessários"
  echo - "Sistema atualizado, pressione <Enter> para o reboot"
  read
  sleep 5
-  reboot
+ reboot
