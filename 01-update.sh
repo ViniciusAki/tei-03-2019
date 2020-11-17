@@ -1,26 +1,26 @@
-#!/bim/bash
-clear
-echo -e  "Atulizando as lista do Apt"
+    #!/bim/bash
 
-apt update 
+    echo -e  "Atulizando as lista do Apt"
 
-echo -e "Atulizando as lista do sodtware"
-        apt -y upgrade
+    apt update 
 
-echo- "Forçando a atulizaçaão do sistema"
+    echo -e "Atulizando as lista do sodtware"
+            apt -y upgrade
 
-apt -y full -upgrade
+    echo- "Forçando a atulizaçaão do sistema"
 
-echo -e "Forçando a atulização de se segurança"
-apt -y dist -upgrade
+    apt -y full -upgrade
 
-echo -e "Removendo softawe desnecessários"
- 
- apt -y autoremove
- apt -y auto clean
- apt clean 
+    echo -e "Forçando a atulização de se segurança"
+    apt -y dist -upgrade
 
- echo - "Sistema atualizado, pressione <Enter> para o reboot"
- read
- sleep 5
- reboot
+    echo -e "Removendo softawe desnecessários"
+    
+    apt -y autoremove
+    apt -y auto clean
+    apt clean 
+
+    echo - "Sistema atualizado, pressione <Enter> para o reboot"
+    read
+    sleep 5
+    reboot
