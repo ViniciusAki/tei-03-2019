@@ -1,5 +1,5 @@
     #!/bim/bash
-
+       clear
     echo -e  "Atulizando as lista do Apt"
 
     apt update 
